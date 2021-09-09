@@ -59,7 +59,7 @@ html {
   text-align: center;
 
   font-size: 3.6rem;
-  font-family: "Hommade Apple", sans-serif;
+  font-family: "Homemade Apple", sans-serif;
   text-transform: lowercase;
 }
 
@@ -68,6 +68,41 @@ html {
   font-family: "Bungee", sans-serif;
 
   padding: 24px;
+  cursor: pointer;
+
+  background: unset;
+  border: unset;
+  outline: unset;
+}
+
+.add {
+  padding: 16px;
+}
+
+.add-form {
+  display: flex;
+  align-items: flex-start;
+}
+
+.add-input {
+  background: unset;
+  border: unset;
+  padding: 0 64px;
+
+  flex: 1;
+
+  border-bottom: 1px solid var(--main-red-color);
+  outline: unset;
+
+  font-family: "Homemade Apple", sans-serif;
+  font-size: 16px;
+  text-transform: lowercase;
+}
+
+.add-btn {
+  font-size: 1.8rem;
+  font-family: "Bungee", sans-serif;
+  cursor: pointer;
 
   background: unset;
   border: unset;
